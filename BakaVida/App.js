@@ -99,7 +99,7 @@ const App: () => Node = () => {
     Saturday: [amazonWorkday, deliveries],
   };
 
-  const today = days[currentDay];
+  const today = 'Thursday';
 
   const currentHour = date.getHours();
 
