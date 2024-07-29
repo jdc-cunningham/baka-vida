@@ -91,15 +91,15 @@ const App: () => Node = () => {
 
   const dayValues = {
     Sunday: [amazonWorkday],
-    Monday: [amazonWorkday, plDono, deliveries],
-    Tuesday: [amazonWorkday, deliveries],
-    Wednesday: [amazonWorkday],
+    Monday: [deliveries],
+    Tuesday: [plDono, amazonWorkday, deliveries],
+    Wednesday: [amazonWorkday, deliveries],
     Thursday: [amazonWorkday, deliveries],
     Friday: [amazonWorkday, plDono, deliveries],
     Saturday: [amazonWorkday, deliveries],
   };
 
-  const today = 'Thursday';
+  const today = days[currentDay];
 
   const currentHour = date.getHours();
 
