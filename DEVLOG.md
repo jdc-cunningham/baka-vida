@@ -1,3 +1,8 @@
+What do I want this app to do?
+
+- I put in the money I made for the day
+- knows what I should have made for the day
+
 ### 08/07/2024
 
 12:51 PM
