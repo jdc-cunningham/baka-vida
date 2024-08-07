@@ -7,7 +7,8 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
+import type { Node } from 'react';
+import { openDatabase } from 'react-native-sqlite-storage';
 
 import {
   SafeAreaView,
@@ -26,6 +27,10 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+export const getDBConnection = async () => {
+  return openDatabase({name: 'todo-data.db', location: 'default'});
+};
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';

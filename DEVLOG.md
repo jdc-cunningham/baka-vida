@@ -19,6 +19,16 @@ Trying to get myself to add sqlite https://blog.logrocket.com/using-sqlite-react
 
 Trying to get motivation I have little free time, trying to make progress on something that feels worth it
 
+3:57 PM
+
+Alright gonna put some time into this, I have 5 more hours till I have to do more deliveries
+
+I'm going to get data storage working
+
+Replace the hardcoded stuff as a new schema/db entry
+
+damn I can't focus on this right now
+
 ### 07/17/2024
 
 5:31 PM
