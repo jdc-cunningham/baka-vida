@@ -83,6 +83,29 @@ const App: () => Node = () => {
     }
   }, []);
 
+  const addTodo = async () => {
+    if (!newTodo.trim()) return;
+    try {
+      const newTodos = [...todos, {
+        id: todos.length ? todos.reduce((acc, cur) => {
+          if (cur.id > acc.id) return cur;
+          return acc;
+        }).id + 1 : 0, value: newTodo
+      }];
+      setTodos(newTodos);
+      const db = await getDBConnection();
+      await saveTodoItems(db, newTodos);
+      setNewTodo('');
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  useEffect(() => {
+    loadDataCallback();
+    // addTodo();
+  }, [loadDataCallback]);
+
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const date = new Date();
   const currentDay = date.getDay();

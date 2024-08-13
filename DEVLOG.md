@@ -25,6 +25,10 @@ Going to add local data store with sqlite
 
 I don't want my "weekend" to feel wasted
 
+1:09 PM
+
+Damn that was a struggle, I feel dumb now ha, not sure if that's what happens when you haven't worked in this field for 9 months/worked in labor instead
+
 ### 08/07/2024
 
 12:51 PM
