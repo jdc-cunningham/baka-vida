@@ -3,6 +3,28 @@ What do I want this app to do?
 - I put in the money I made for the day
 - knows what I should have made for the day
 
+### 08/13/2024
+
+12:30 PM
+
+I have been struggling with motivation to write code for myself
+
+This is one of the most recent things I've been working on
+
+Haven't worked on a hardware project in a bit
+
+I just feel occupied with the feeling of dread lately or working since I work everyday
+
+Trying to apply to jobs but low hopes
+
+Clock is ticking on my debts
+
+I'm going to force myself to write this code, I got some sleep and my caffeine
+
+Going to add local data store with sqlite
+
+I don't want my "weekend" to feel wasted
+
 ### 08/07/2024
 
 12:51 PM

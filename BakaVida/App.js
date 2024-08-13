@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -6,9 +7,10 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import type { Node } from 'react';
-import { openDatabase } from 'react-native-sqlite-storage';
+import { ToDoItem } from './models';
+import { getDBConnection, getTodoItems, saveTodoItems, createTable, clearTable, deleteTodoItem } from './db-service';
 
 import {
   SafeAreaView,
@@ -27,10 +29,6 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-
-export const getDBConnection = async () => {
-  return openDatabase({name: 'todo-data.db', location: 'default'});
-};
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -64,6 +62,26 @@ const App: () => Node = () => {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+
+  const [todos, setTodos] = useState([]);
+  const [newTodo, setNewTodo] = useState('');
+
+  const loadDataCallback = useCallback(async () => {
+    try {
+      const initTodos = [{ id: 0, value: 'go to shop' }, { id: 1, value: 'eat at least a one healthy foods' }, { id: 2, value: 'Do some exercises' }];
+      const db = await getDBConnection();
+      await createTable(db);
+      const storedTodoItems = await getTodoItems(db);
+      if (storedTodoItems.length) {
+        setTodos(storedTodoItems);
+      } else {
+        await saveTodoItems(db, initTodos);
+        setTodos(initTodos);
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  }, []);
 
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const date = new Date();
