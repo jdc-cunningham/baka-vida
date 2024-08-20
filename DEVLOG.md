@@ -3,6 +3,18 @@ What do I want this app to do?
 - I put in the money I made for the day
 - knows what I should have made for the day
 
+### 08/20/2024
+
+12:36 PM
+
+Going to see if I can code... been getting harder and harder has since I don't do it so much anymore
+
+The thing is I still don't know what this app should do, I see some designs in my mind here and there
+
+I have to rework the data store too it works from that tutorial but I just copied/pasted it, gotta organize the code
+
+
+
 ### 08/13/2024
 
 12:30 PM
@@ -28,6 +40,12 @@ I don't want my "weekend" to feel wasted
 1:09 PM
 
 Damn that was a struggle, I feel dumb now ha, not sure if that's what happens when you haven't worked in this field for 9 months/worked in labor instead
+
+6:50 PM
+
+Still trying to get motivation on this, what do I want it to do...
+
+I have what I need to know to make it, just do it...
 
 ### 08/07/2024
 

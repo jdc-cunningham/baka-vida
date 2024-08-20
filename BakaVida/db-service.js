@@ -11,7 +11,6 @@ export const getDBConnection = async () => {
 };
 
 export const createTable = async (db) => {
-  // create table if not exists
   const query = `CREATE TABLE IF NOT EXISTS ${tableName}(
         value TEXT NOT NULL
     );`;
@@ -23,6 +22,7 @@ export const getTodoItems = async (db) => {
   try {
     const todoItems = [];
     const results = await db.executeSql(`SELECT rowid as id,value FROM ${tableName}`);
+
     results.forEach(result => {
       for (let index = 0; index < result.rows.length; index++) {
         todoItems.push(result.rows.item(index))
@@ -45,6 +45,7 @@ export const saveTodoItems = async (db, todoItems) => {
 
 export const deleteTodoItem = async (db, id) => {
   const deleteQuery = `DELETE from ${tableName} where rowid = ${id}`;
+
   await db.executeSql(deleteQuery);
 };
 
