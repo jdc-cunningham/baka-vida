@@ -19,3 +19,6 @@ I'm struggling got this distraction lol
 Yeah I don't expect to get far, this is one of those projects I need to actually put a lot of time down into but never do.
 
 I'm going to be working more so I want to actually use this app as a way to gamify my life it sounds sad I know but I hate being in debt, my life runs on the fear of not having a job/not being able to pay debt.
+
+12:53 PM
+Ehh... that's it for now, once I get this demo code in I'll rewrite it to what I need to use, my stuff like schedule, finances
