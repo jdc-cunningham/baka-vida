@@ -63,6 +63,17 @@ It would be faster to build a desktop app
 
 Idk being on my phone makes it more gamifiable where I'm looking at it more even when I'm out and about
 
+I want to push it to my phone real quick
+
+9:39 PM
+
+It says installing on device but it doesn't actually do it, ugh
+
+9:49 PM
+Ugh... still not installed
+
+I could pull this repo down on my other device and try to install it there
+
 ### 03/22/2025
 
 I'm trying to work on this but I'm working two jobs.
