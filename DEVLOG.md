@@ -74,6 +74,18 @@ Ugh... still not installed
 
 I could pull this repo down on my other device and try to install it there
 
+---
+
+### 07/12/2025
+
+5:55 PM
+
+Just got back from the gym. Damn I lost so much money this week from being sick. Lost $400/day gone, lost $100 from the plasma donations, lost $270 by not driving the whole weekend.
+
+It's bad to think that way but yeah. I'm taking the weekend off to get some work done freelance and also for myself. I need to get sqlite working in RN for my project and client project. So I'll get this down today finally then integrate it into a project.
+
+---
+
 ### 03/22/2025
 
 I'm trying to work on this but I'm working two jobs.
