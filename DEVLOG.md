@@ -82,6 +82,10 @@ Ugh... while it did detect my phone/install it on there right away, there's a ne
 
 Why...
 
+10:55 PM
+
+Alright forget it... I'll pick this up tomorrow, stick with the other device
+
 ---
 
 ### 07/12/2025
