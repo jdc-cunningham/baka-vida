@@ -6,22 +6,27 @@
  */
 
 import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { HomeScreen } from './screens/HomeScreen';
+import { FinancesScreen } from './screens/FinancesScreen';
 
-import {
-  SafeAreaView,
-  ScrollView,
-  View,
-} from 'react-native';
+const Stack = createNativeStackNavigator();
 
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView>
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic">
-        <View>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+        />
+        <Stack.Screen
+          name="Finances"
+          component={FinancesScreen}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

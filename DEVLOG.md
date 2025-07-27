@@ -25,6 +25,35 @@ Okay so this is what I'll do:
 
 I woke up at 3PM today/went to the gym already, mostly recovered from the small food coma (had a large Caramel Frapuccino, Spicy McChicken and Double Cheeseburger) makes me want to pass out.
 
+7:58 PM
+I struggle to work on this app because I don't really want to make it... I need it but I don't want to make it/don't feel joy.
+
+8:15 PM
+Stuck on this `Unable to resolve module nanoid/non-secure`
+
+8:30 PM
+REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+One of those moments where Windows pisses me of "You cant delete node_modules, these aren't Joanna's node_modules"
+
+Waiting for the configuring stuff to end/app opens again in emulator hopefully fixes the nanoid problem above
+
+This keyboard is not very good on the Surface Book 3, it's mushy
+
+OMG this is taking a while... watching the terminal say `EXECUTING [4m 36s]`
+
+Goddddd LinkedIn is so cringe the stuff I see on there, ahh well. Gotta only go on there when looking for work.
+
+WTH man... 8 minutes in still executing
+
+Set it to best performance, power mode will see if that speeds it up
+
+8:48 PM
+OMG finally back to building
+
+9:00 PM
+Damn this progress is slow
+
 ### 03/22/2025
 
 I'm trying to work on this but I'm working two jobs.
