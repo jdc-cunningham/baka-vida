@@ -74,6 +74,14 @@ Ugh... still not installed
 
 I could pull this repo down on my other device and try to install it there
 
+10:35 PM
+
+Ugh... while it did detect my phone/install it on there right away, there's a new problem
+
+`cannot find symbol ViewManagerResolver viewManagerResolver`
+
+Why...
+
 ---
 
 ### 07/12/2025
