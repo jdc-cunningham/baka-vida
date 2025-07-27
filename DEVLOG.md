@@ -54,6 +54,15 @@ OMG finally back to building
 9:00 PM
 Damn this progress is slow
 
+9:29 PM
+Ugh... idk why I don't want to do it
+
+I'd be driving Uber Eats right now but I'm supposed to build this app
+
+It would be faster to build a desktop app
+
+Idk being on my phone makes it more gamifiable where I'm looking at it more even when I'm out and about
+
 ### 03/22/2025
 
 I'm trying to work on this but I'm working two jobs.
